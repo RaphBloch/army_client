@@ -1,0 +1,149 @@
+.container
+{
+    display : flex ;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding:  30px;
+    height : 400px;
+    background-color: #61dafb;
+}
+
+.bar {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    width: 80px;
+    position: relative;
+    height : 300px ;
+    background-color: #f1f1f1;
+}
+
+.bar hr
+{
+
+    position: absolute;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    width : 80px;
+    border-style: inset;
+    border-top: 5px solid #095484;
+}
+.bar-value{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.button_container  button
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+    display:  block;
+    width : 100px;
+    margin : 20px;
+}
+
+.graphic_container
+{
+    display : flex ;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 10px 10px;
+    padding:  30px;
+}
+
+.button{
+    background-color: gold;
+}
+
+.text_container
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    width: 100%;
+}
+
+
+#3000
+{
+    margin-top: 2px;
+}
+
+h2
+{
+    color : darkred;
+}
+
+.circle {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin : 20px;
+    overflow: hidden;
+    transform: rotate(0deg);
+}
+
+
+.green{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background: green;
+    left: -2px;
+    width: 50% ;
+
+
+}
+.blue{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background: blue;
+    right: -2px;
+    width: 50% ;
+}
+
+.card{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.card-header{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid black;
+    border-radius:  10px 10px 0  0;
+    text-align: center;
+    padding: 10px;
+}
+.card-body{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HSI_container{
+    position: relative;
+}
+.arrow-img{
+    width: 50px;
+    position: absolute;
+    bottom: 52%;
+    left: 42%;
+}
