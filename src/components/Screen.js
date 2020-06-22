@@ -142,9 +142,6 @@ class Screen extends  Component
     render()
     {
 
-
-
-
         console.log('render');
         const data = this.state;
 
@@ -205,12 +202,12 @@ class Screen extends  Component
 
                         <div className="card">
                             <div className="card-header"> HSI</div>
-                            <div className="card-body"> {this.state.HSI} </div>
+                            <div className="card-body"> {this.state.HSI}  </div>
                         </div>
 
                         <div className="card">
                             <div className="card-header">ADI:</div>
-                            <div className="card-body"> {this.state.ADI}  </div>
+                            <div className="card-body"> {this.state.ADI} deg  </div>
                         </div>
 
                     </div>
